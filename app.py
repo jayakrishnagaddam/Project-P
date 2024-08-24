@@ -4,8 +4,9 @@ app=Flask(__name__)
 
 
 @app.route('/')
-def function():
-    return "Hello World"
+def home():
+    return render_template('home.html')
+
 
 
 
